@@ -1,11 +1,20 @@
 html{
     background: lightcyan;
 }
+.color{
+    background: lightcyan;
+    color: black;
+}
 .leftimg{
     display: block;
     margin-left: 25px;
     padding: 12px;
 }
+
+.cars{
+    background: lightcyan;
+}
+
 .righttxt{
     display: block;
     margin-left:500px;
@@ -15,6 +24,7 @@ html{
 .pad{
 	padding: 12px;
 }
-.centerbtn{
-	margin: auto;
+.btn-primary{
+    margin-left:750px;
+    padding: 12px;
 }

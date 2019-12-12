@@ -1,10 +1,27 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1 class="text-center">Fix-A-Wreck Manager</h1>
-    <div role="group" class="btn-group-vertical">
-        <a href='/inventory'><button class="btn btn-outline-primary text-center" type="button">View Inventory</button></a>
-        <a href='/joblist'><button class="btn btn-outline-primary" type="button">Job List</button></a>
-        <a href='/newUser'><button class="btn btn-outline-primary" type="button">Create New Manager</button></a>
+    <h1 class="text-center color">Fix-A-Wreck Manager</h1>
+
+    <!--Container-->
+    <div class="container-fluid color">
+        <!--Row-->
+        <div class="row">
+            <!--Col-->
+            <div class="col">
+                <a href='/inventory'><button class="btn btn-primary text-center" type="button">View Inventory</button></a>
+                <a href='/joblist'><button class="btn btn-primary" type="button">Job List</button></a>
+                <a href='/newUser'><button class="btn btn-primary" type="button">Create New Manager</button></a>
+                <a href='/'><button class="btn btn-primary" type="button">Log Out</button></a>
+            </div>
+        </div>
     </div>
+
 {% endblock %}
+
+<div role="group" class="btn-group-vertical color">
+    <a href='/inventory'><button class="btn btn-primary text-center" type="button">View Inventory</button></a>
+    <a href='/joblist'><button class="btn btn-primary" type="button">Job List</button></a>
+    <a href='/newUser'><button class="btn btn-primary" type="button">Create New Manager</button></a>
+    <a href='/'><button class="btn btn-primary" type="button">Log Out</button></a>
+</div>
